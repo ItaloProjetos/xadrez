@@ -26,11 +26,11 @@ void moverCavalo() {
         for (int j = 0; j < 2; j++) {
             if (i == j) continue;  // exemplo de uso de continue
             printf("Cima\n");
-        }
+}
 
         if (i == 2) break; // exemplo de uso de break
         printf("Direita\n");
-    }
+}
 }
 
 // ===== Bispo com Loops Aninhados =====
@@ -39,8 +39,8 @@ void moverBispoLoops(int casas) {
     for (int i = 0; i < casas; i++) { // movimento vertical
         for (int j = 0; j < 1; j++) { // movimento horizontal por passo
             printf("Cima Direita\n");
-        }
-    }
+} 
+}
 }
 
 int main() {
